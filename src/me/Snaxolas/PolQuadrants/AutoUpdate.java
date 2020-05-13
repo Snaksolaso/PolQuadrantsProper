@@ -46,6 +46,8 @@ public class AutoUpdate {
 //        YamlConfiguration yc = YamlConfiguration.loadConfiguration(file);
 //        String nick = yc.getString("nickname");
 
+
+        //so much better with Essentials imported!
         String nick = e.getUser(p).getNickname();
 
         if(nick == null){

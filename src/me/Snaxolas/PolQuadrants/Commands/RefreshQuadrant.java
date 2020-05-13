@@ -37,7 +37,7 @@ public class RefreshQuadrant implements CommandExecutor {
                     return true;
                 }
                 AutoUpdate.AutoUpdate(Bukkit.getPlayer(args[0]), plugin);
-                sender.sendMessage(ChatColor.DARK_GREEN + "Successfully refreshed " + Bukkit.getPlayer(args[0]).getName() + "'s nickname");
+                sender.sendMessage(ChatColor.DARK_GREEN + "Successfully refreshed " + Bukkit.getPlayer(args[0]).getName() + "'s nickname.");
                 return true;
             }
             if(sender instanceof Player){
@@ -49,7 +49,9 @@ public class RefreshQuadrant implements CommandExecutor {
                     sender.sendMessage(ChatColor.DARK_RED + "Your nickname cannot be updated, as you have the \"doNotUpdateNick\" permission.");
                     return true;
                 }
+
                 AutoUpdate.AutoUpdate((Player) sender, plugin);
+                sender.sendMessage(ChatColor.DARK_GREEN + "Successfully refreshed your nickname.");
                 return true;
             }
         }
