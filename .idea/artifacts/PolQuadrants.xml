@@ -1,0 +1,9 @@
+<component name="ArtifactManager">
+  <artifact type="jar" build-on-make="true" name="PolQuadrants">
+    <output-path>$PROJECT_DIR$/out/artifacts/PolQuadrants</output-path>
+    <root id="archive" name="PolQuadrants.jar">
+      <element id="module-output" name="PolQuadrants" />
+      <element id="extracted-dir" path="D:/CurrentDesktop/Common Jar Dependencies/spigot-1.15.2.jar" path-in-jar="/" />
+    </root>
+  </artifact>
+</component>

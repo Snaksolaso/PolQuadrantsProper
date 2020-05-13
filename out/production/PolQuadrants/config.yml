@@ -1,0 +1,23 @@
+colors:
+  LibLeft:
+    "&2"
+  LibCenter:
+    "&a"
+  LibRight:
+    "&e"
+  RightCenter:
+    "&6"
+  AuthRight:
+    "&9"
+  AuthCenter:
+    "&5"
+  AuthLeft:
+    "&4"
+  LeftCenter:
+    "&c"
+  Centrist:
+    "&7"
+  OffCompass:
+    "&8"
+  Unflaired:
+    "&3"

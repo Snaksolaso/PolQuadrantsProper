@@ -1,0 +1,9 @@
+main: me.Snaxolas.PolQuadrants.Main
+name: PolQuadrants
+version: 1.0
+author: Snaxolas
+commands:
+  setquadrant:
+  setq:
+  refreshquadrant:
+  refreshq:
